@@ -1,0 +1,56 @@
+:root{
+    --roxo: #993399;
+    --rosa: #bb6569;
+    --bege: #b5e140;
+    --azul: #0000ff;
+    --verde: #00ff00;
+}
+
+.pagina__cabecalho-titulo, .pagina__cabecalho-corpo, .pagina__corpo-secao-titulo, .pagina__cabecalho-rodape {
+    font-size: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.pagina__descricao{
+    font-size: 22px;
+    padding: 1em;
+}
+
+.pagina__cabecalho {
+    background-color: var(--roxo);
+    height: 400px;
+}
+
+.pagina__cabecalho-navegacao {
+    background-color: red;
+    height: 200px;
+    width: 350px;
+    margin: 20px 0 20px 40px;
+}
+
+.pagina__corpo{
+    background-color: var(--rosa);
+    height: 800px;
+}
+
+.pagina__corpo-secao{
+    background-color: var(--azul);
+    height: 170px;
+    width: 350px;
+    margin: 20px 0 20px 40px;
+}
+
+.pagina__corpo-articulo{
+    background-color: var(--verde);
+    height: 250px;
+    width: 400px;
+    margin: 20px 0 20px 40px;
+}
+
+.pagina__rodape{
+    background-color: var(--bege);
+    height: 150px;
+}
